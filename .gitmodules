@@ -31,3 +31,6 @@
 [submodule "bundle/less"]
 	path = bundle/less
 	url = git@github.com:groenewege/vim-less
+[submodule "bundle/powershell"]
+	path = bundle/powershell
+	url = git@github.com:PProvost/vim-ps1.git
