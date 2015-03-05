@@ -1,0 +1,33 @@
+[submodule "bundle/ctrlp"]
+	path = bundle/ctrlp
+	url = git@github.com:kien/ctrlp.vim.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = git@github.com:scrooloose/nerdtree.git
+[submodule "bundle/phpcomplete"]
+	path = bundle/phpcomplete
+	url = git@github.com:shawncplus/phpcomplete.vim.git
+[submodule "bundle/vdebug"]
+	path = bundle/vdebug
+	url = git@github.com:joonty/vdebug.git
+[submodule "bundle/ansible"]
+	path = bundle/ansible
+	url = git@github.com:chase/vim-ansible-yaml.git
+[submodule "bundle/easymotion"]
+	path = bundle/easymotion
+	url = git@github.com:Lokaltog/vim-easymotion.git
+[submodule "bundle/fugitive"]
+	path = bundle/fugitive
+	url = git@github.com:tpope/vim-fugitive.git
+[submodule "bundle/git"]
+	path = bundle/git
+	url = git@github.com:tpope/vim-git.git
+[submodule "bundle/gitgutter"]
+	path = bundle/gitgutter
+	url = git@github.com:airblade/vim-gitgutter.git
+[submodule "bundle/jsx"]
+	path = bundle/jsx
+	url = git@github.com:mxw/vim-jsx.git
+[submodule "bundle/less"]
+	path = bundle/less
+	url = git@github.com:groenewege/vim-less
