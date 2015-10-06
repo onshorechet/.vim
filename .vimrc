@@ -9,6 +9,8 @@ let g:vdebug_options["port"] = 9000
 let g:vdebug_options['server'] = ''
 let g:vdebug_options['break_on_open'] = '0'
 let g:vdebug_options['watch_window_style'] = 'compact'
+let g:vdebug_options['watch_window_height'] = 100 
+let g:vdebug_options['continuous_mode'] = '1'
 
 set number
 set ruler
@@ -45,3 +47,5 @@ let g:airline#extensions#tabline#enabled = 1
 
 set wildchar=<tab></tab>
 set complete-=k complete+=k
+
+let g:agprg="ag -G --vimgrep"
