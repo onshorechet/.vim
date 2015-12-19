@@ -49,3 +49,7 @@ set wildchar=<tab></tab>
 set complete-=k complete+=k
 
 let g:agprg="ag -G --vimgrep"
+
+autocmd FileType java setlocal omnifunc=javacomplete#Complete
+
+let g:android_sdk_path = /home/henry/Android/Sdk

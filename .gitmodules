@@ -52,3 +52,9 @@
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = git@github.com:ervandew/supertab.git
+[submodule "bundle/javacomplete"]
+	path = bundle/javacomplete
+	url = https://github.com/artur-shaik/vim-javacomplete2.git
+[submodule "bundle/android"]
+	path = bundle/android
+	url = https://github.com/hsanson/vim-android
