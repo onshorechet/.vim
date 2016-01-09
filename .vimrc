@@ -48,8 +48,11 @@ let g:airline#extensions#tabline#enabled = 1
 set wildchar=<tab></tab>
 set complete-=k complete+=k
 
-let g:agprg="ag -G --vimgrep"
+" let g:agprg="ag -G --vimgrep"
 
 autocmd FileType java setlocal omnifunc=javacomplete#Complete
 
-let g:android_sdk_path = /home/henry/Android/Sdk
+let g:android_sdk_path = "/home/henry/Android/Sdk"
+
+let g:JavaComplete_Home = $HOME . '/.vim/bundle/vim-javacomplete2'
+let $CLASSPATH .= '.:' . $HOME . '/.vim/bundle/vim-javacomplete2/lib/javavi/target/classes'
