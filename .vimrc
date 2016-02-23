@@ -56,3 +56,11 @@ let g:android_sdk_path = "/home/henry/Android/Sdk"
 
 let g:JavaComplete_Home = $HOME . '/.vim/bundle/vim-javacomplete2'
 let $CLASSPATH .= '.:' . $HOME . '/.vim/bundle/vim-javacomplete2/lib/javavi/target/classes'
+
+function! StartUp()                                                                                                                                                                                         
+    if 0 == argc()
+        NERDTree
+    end
+endfunction
+
+autocmd VimEnter * call StartUp()
