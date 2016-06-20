@@ -1,7 +1,13 @@
 set t_Co=256
+
+call pathogen#infect('~/.vim/bundle/drupalvim/bundle/{}')
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
+
+set nobackup
+set nowritebackup
+set noswapfile
 
 call pathogen#helptags()
 
