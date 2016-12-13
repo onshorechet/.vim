@@ -30,8 +30,12 @@ set ttyfast
 au BufNewFile,BufRead *.zep setf zep
 
 set tabstop=4
-set shiftwidth=4
+set softtabstop=4
 set expandtab
+set shiftwidth=4
+set smarttab
+set nowrap
+set list
 
 let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
 
