@@ -8,6 +8,7 @@ filetype plugin indent on
 set nobackup
 set nowritebackup
 set noswapfile
+set clipboard=unnamedplus
 
 call pathogen#helptags()
 
@@ -36,6 +37,7 @@ set shiftwidth=4
 set smarttab
 set nowrap
 set list
+set mouse=a
 
 let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
 
