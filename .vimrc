@@ -8,7 +8,7 @@ filetype plugin indent on
 set nobackup
 set nowritebackup
 set noswapfile
-set clipboard=unnamedplus
+            set clipboard=unnamedplus
 
 call pathogen#helptags()
 
@@ -17,12 +17,11 @@ let g:vdebug_options["port"] = 9000
 let g:vdebug_options['server'] = ''
 let g:vdebug_options['break_on_open'] = '0'
 let g:vdebug_options['watch_window_style'] = 'compact'
-let g:vdebug_options['watch_window_height'] = 100 
+let g:vdebug_options['watch_window_height'] = 100
 let g:vdebug_options['continuous_mode'] = '1'
 
 set number
 set ruler
-syntax on
 set encoding=utf-8
 set t_Co=256
 
@@ -70,10 +69,30 @@ let g:android_sdk_path = "/home/henry/Android/Sdk"
 let g:JavaComplete_Home = $HOME . '/.vim/bundle/vim-javacomplete2'
 let $CLASSPATH .= '.:' . $HOME . '/.vim/bundle/vim-javacomplete2/lib/javavi/target/classes'
 
-function! StartUp()                                                                                                                                                                                         
+let g:jsx_ext_required = 0
+
+function! StartUp()
     if 0 == argc()
         NERDTree
     end
 endfunction
 
+let g:haskell_enable_quantification = 1   " to enable highlighting of `forall`
+let g:haskell_enable_recursivedo = 1      " to enable highlighting of `mdo` and `rec`
+let g:haskell_enable_arrowsyntax = 1      " to enable highlighting of `proc`
+let g:haskell_enable_pattern_synonyms = 1 " to enable highlighting of `pattern`
+let g:haskell_enable_typeroles = 1        " to enable highlighting of type roles
+let g:haskell_enable_static_pointers = 1  " to enable highlighting of `static`
+let g:haskell_backpack = 1                " to enable highlighting of backpack keywords
+
+" for command mode
+nnoremap <S-Tab> <<
+nnoremap <Tab> >>
+" for insert mode
+inoremap <S-Tab> <C-d>
+
+vmap <Tab> >>
+vmap <S-Tab> <<
+vnoremap < <gv
+vnoremap > >gv
 autocmd VimEnter * call StartUp()
