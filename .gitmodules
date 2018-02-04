@@ -25,9 +25,6 @@
 [submodule "bundle/gitgutter"]
 	path = bundle/gitgutter
 	url = git@github.com:airblade/vim-gitgutter.git
-[submodule "bundle/jsx"]
-	path = bundle/jsx
-	url = git@github.com:mxw/vim-jsx.git
 [submodule "bundle/less"]
 	path = bundle/less
 	url = git@github.com:groenewege/vim-less
