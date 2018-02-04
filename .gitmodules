@@ -64,9 +64,6 @@
 [submodule "bundle/vim-go"]
 	path = bundle/vim-go
 	url = https://github.com/fatih/vim-go.git
-[submodule "/home/henry/.vim/bundle/vim-jsx"]
-	path = /home/henry/.vim/bundle/vim-jsx
-	url = https://github.com/mxw/vim-jsx.git
 [submodule "bundle/haskell-vim"]
 	path = bundle/haskell-vim
 	url = https://github.com/neovimhaskell/haskell-vim
