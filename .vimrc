@@ -29,13 +29,8 @@ set lazyredraw
 set ttyfast
 au BufNewFile,BufRead *.zep setf zep
 
-set tabstop=4
-set softtabstop=4
-set expandtab
-set shiftwidth=4
-set smarttab
+set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
 set nowrap
-set list
 set mouse=a
 
 let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
