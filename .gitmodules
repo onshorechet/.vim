@@ -1,72 +1,100 @@
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
 	url = git@github.com:kien/ctrlp.vim.git
+	branch = master
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = git@github.com:scrooloose/nerdtree.git
+	branch = master
 [submodule "bundle/phpcomplete"]
 	path = bundle/phpcomplete
 	url = git@github.com:shawncplus/phpcomplete.vim.git
+	branch = master
 [submodule "bundle/vdebug"]
 	path = bundle/vdebug
 	url = git@github.com:joonty/vdebug.git
+	branch = master
 [submodule "bundle/ansible"]
 	path = bundle/ansible
 	url = git@github.com:chase/vim-ansible-yaml.git
+	branch = master
 [submodule "bundle/easymotion"]
 	path = bundle/easymotion
 	url = git@github.com:Lokaltog/vim-easymotion.git
+	branch = master
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
 	url = git@github.com:tpope/vim-fugitive.git
+	branch = master
 [submodule "bundle/git"]
 	path = bundle/git
 	url = git@github.com:tpope/vim-git.git
+	branch = master
 [submodule "bundle/gitgutter"]
 	path = bundle/gitgutter
 	url = git@github.com:airblade/vim-gitgutter.git
+	branch = master
 [submodule "bundle/less"]
 	path = bundle/less
 	url = git@github.com:groenewege/vim-less
+	branch = master
 [submodule "bundle/ag"]
 	path = bundle/ag
 	url = git@github.com:rking/ag.vim.git
+	branch = master
 [submodule "bundle/php"]
 	path = bundle/php
 	url = git@github.com:StanAngeloff/php.vim.git
+	branch = master
 [submodule "bundle/ctrlp-py-matcher"]
 	path = bundle/ctrlp-py-matcher
 	url = git@github.com:FelikZ/ctrlp-py-matcher.git
+	branch = master
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = git@github.com:ervandew/supertab.git
+	branch = master
 [submodule "bundle/vimproc.vim"]
 	path = bundle/vimproc.vim
 	url = https://github.com/Shougo/vimproc.vim.git
+	branch = master
 [submodule "bundle/drupalvim"]
 	path = bundle/drupalvim
 	url = http://git.drupal.org/project/vimrc.git
+	branch = master
 [submodule "bundle/Align"]
 	path = bundle/Align
 	url = https://github.com/vim-scripts/Align.git
+	branch = master
 [submodule "bundle/vim-vebugger"]
 	path = bundle/vim-vebugger
 	url = https://github.com/idanarye/vim-vebugger
+	branch = master
 [submodule "bundle/vim-javascript"]
 	path = bundle/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
+	branch = master
 [submodule "bundle/vim-better-whitespace"]
 	path = bundle/vim-better-whitespace
 	url = git@github.com:ntpeters/vim-better-whitespace.git
+	branch = master
 [submodule "bundle/pgsql"]
 	path = bundle/pgsql
 	url = https://github.com/lifepillar/pgsql.vim.git
+	branch = master
 [submodule "bundle/vim-go"]
 	path = bundle/vim-go
 	url = https://github.com/fatih/vim-go.git
+	branch = master
 [submodule "bundle/haskell-vim"]
 	path = bundle/haskell-vim
 	url = https://github.com/neovimhaskell/haskell-vim
+	branch = master
 [submodule "bundle/vim-jsx"]
 	path = bundle/vim-jsx
 	url = https://github.com/mxw/vim-jsx.git
+	branch = master
+[submodule "bundle/linediff"]
+	path = bundle/linediff
+	url = https://github.com/AndrewRadev/linediff.vim
+	branch = master
