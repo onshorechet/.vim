@@ -1,5 +1,6 @@
 set t_Co=256
 
+set nocp
 call pathogen#infect('~/.vim/bundle/drupalvim/bundle/{}')
 execute pathogen#infect()
 syntax on
@@ -19,6 +20,12 @@ let g:vdebug_options['break_on_open'] = '0'
 let g:vdebug_options['watch_window_style'] = 'compact'
 let g:vdebug_options['watch_window_height'] = 100
 let g:vdebug_options['continuous_mode'] = '1'
+let g:vdebug_features = {}
+let g:vdebug_features['max_data'] = 2048000
+let g:vdebug_force_ascii = 1
+let g:vdebug_options["marker_default"] = '*'
+let g:vdebug_options["marker_closed_tree"] = '+'
+let g:vdebug_options["marker_open_tree"] = '-'
 
 set number
 set ruler
